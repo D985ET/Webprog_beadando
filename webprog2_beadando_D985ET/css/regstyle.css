@@ -1,0 +1,40 @@
+body
+{
+    background-image: url("loginkep.jpg");
+}
+div
+{
+    background-color:gray;
+    color:white;
+    margin:auto;
+    width: 400px;
+    font-size: 20px;
+    font-style:italic;
+    margin-top: 300px;
+    padding: 30px;
+}
+.button1
+{
+    font-size: 15px;
+}
+.button2
+{
+    font-size: 15px;
+    text-align: right;
+   
+}
+.p
+{
+    color: gray;
+    font-size: 20px;
+    margin-top:300px;
+}
+.regisztracio
+{
+    font-size: 20px;
+    font-style: italic;
+    color:brown;
+    width: 400px;
+    margin-bottom: 200px;
+}
+

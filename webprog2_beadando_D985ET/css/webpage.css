@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body
+{
+    background-image: url(loginkep.jpg);
+    font-family:'Krona One', sans-serif;
+}
+div#header
+{
+    background-repeat: no-repeat;
+    background-image: url(menu_background1.jpg);
+    background-position-y:-55px;
+    background-size: cover;
+    height: 180px;
+    text-align: right;
+    font-size: 20px;
+}
+
+/*MENU*/
+div#menu
+{
+display: inline-block;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+text-decoration: none;
+}
+div#menu table 
+{
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+background-color:#e0a96d;
+
+
+}
+td a
+{
+    text-decoration: none;
+    font-family:'Krona One', sans-serif;
+    font-weight: bolder;
+    
+    color:#201e20;
+}
+div#menu table td:hover
+{
+    background-color:#ddc3a5;
+}
+/*menu vége :)*/
+div#content
+{
+    background-color:#ddc3a5d0; 
+    
+}
+/*PROFIL*/
+div#content div#profilom
+{
+    height:650px;
+    text-align: center;
+    
+}
+div#content h4
+{
+    font-family:'Krona One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+div#content div#profilom table
+{
+    padding:30px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color:#dfa567d0;
+    opacity: 90%;
+}
+/*Profil vége*/
+div#content div#tobbifelhasznalo
+{
+    display: inline-block;
+    margin-left:20px;
+    height: 580px;
+    font-size: 15px;
+    text-align: center;
+    border-right: 2px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color:#dfa567d0;
+    opacity: 90%;
+}
+div#content div#tobbifelhasznalo td
+{
+   width:200px;
+   
+}
+div#content div#formlistlink a
+{
+    text-decoration: none;
+    padding:10px;
+    color:black;
+
+}
+div#content div#igevershozzaadas
+{
+    height:650px;
+    text-align: center;
+    padding-top:20px;
+}
+div#content div#igevershozzaadas table
+{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#dfa567d0;
+    opacity: 90%;
+
+}
+div#content div#migevers
+{
+    height:620px;
+    display: inline-block;
+    padding:20px;
+    border-right: 2px solid black;
+    text-align: center;
+    background-color:#dfa567d0;
+    opacity: 90%;
+}
+div#useradd
+{
+    text-align: center;
+    height: 580px;
+}
+div#useradd table
+{
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#dfa567d0;
+    opacity: 90%;
+}
+div#userdelete
+{
+    text-align: center;
+    height: 580px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 400px;
+    padding-left:400px;
+}
+div#userdelete h2
+{
+    background-color:#dfa567d0;
+    opacity: 90%;
+}
+div#userdelete table
+{
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#dfa567d0;
+    opacity: 90%;
+}
+div#search
+{
+    text-align: center;
+    height: 690px;
+    margin-right: auto;
+    margin-left: auto;
+    
+   
+}
+div.list
+{
+    padding:12px;
+    display: inline-block;
+}
+div#search form
+{
+    background-color:#dfa567d0;
+    opacity: 90%;
+    padding:20px;
+}
+div#footer
+{
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+    
+    
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+/*
+div id = page
+{
+    div id = header
+    {
+    }
+    div id = menu
+    {
+
+    }
+    div id = content
+    {
+        div id = profilom
+        div id = tobbifelhasznalo
+        div id = igevershozzaadas
+        div id = migevers
+    }
+    div id = footer
+    {
+
+    }
+
+}
+
+*/
