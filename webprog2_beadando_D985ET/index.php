@@ -10,7 +10,7 @@
     <body>
     <?php require "mydbm.php"; ?>
     <?php
-        
+        session_start();
         if(isset($_SESSION["user"]))
         {
             echo "<div id=page>";//maga a mag
